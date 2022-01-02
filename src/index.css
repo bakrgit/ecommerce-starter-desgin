@@ -40,14 +40,26 @@ body {
 .slider-background {
   background: linear-gradient(173.68deg, #ffedf5 0%, #ffd5e7 100%);
   height: "296px";
+  width: 294.26px;
+
 }
 .slider-background2 {
   background: linear-gradient(174.76deg, #d3deff 0%, #a8baff 100%);
   height: "296px";
+  width: 294.26px;
+
 }
 .slider-background3 {
   background: linear-gradient(176.69deg, #f8f0d5 0%, #efdcab 100%);
   height: "296px";
+  width: 294.26px;
+
+}
+.slider-background4 {
+  background: linear-gradient(175.24deg, #B2E8F0 0%, #7BCCDC 100%);
+  height: "296px";
+  width: 294.26px;
+
 }
 .slider-title {
   color: #915970;
