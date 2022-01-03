@@ -75,14 +75,21 @@ const AdminOrderDetalis = () => {
             ahmed@gmail.com
           </div>
         </Col>
-      </Row>
-
-      <Row className="my-3 justify-content-center ">
-        <Col xs="12">
-          <div className="product-price d-inline px-4 border">
-            المجموع ٤٠٠٠ جنيه
-          </div>
-        </Col>
+        <div className=" d-inline px-4 border text-center pt-2">
+          المجموع ٤٠٠٠ جنيه
+        </div>
+        <div className="d-flex mt-2 justify-content-center">
+          <select
+            name="languages"
+            id="lang"
+            className="select input-form-area mt-1  text-center px-2 w-50">
+            <option value="val">حالة الطلب</option>
+            <option value="val2">قيد التنفيذ</option>
+            <option value="val2">تم الانتهاء</option>
+            <option value="val2">الغاء</option>
+          </select>
+          <button className="btn-a px-3 d-inline mx-2 ">حفظ </button>
+        </div>
       </Row>
     </div>
   );

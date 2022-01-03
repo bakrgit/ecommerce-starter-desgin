@@ -42,7 +42,7 @@ const ChoosePayMethoud = () => {
       <Row>
         <Col xs="12" className="d-flex justify-content-end">
           <div className="product-price d-inline   border">34000 جنية</div>
-          <div className="product-cart-add d-inline me-2"> اتمام الشراء</div>
+          <div className="product-cart-add px-3 pt-2 d-inline me-2"> اتمام الشراء</div>
         </Col>
       </Row>
     </div>

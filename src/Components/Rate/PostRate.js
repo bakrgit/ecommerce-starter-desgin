@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import rate from "../../images/rate.png";
 import ReactStars from "react-rating-stars-component";
+import { __esModule } from "react-rating-stars-component/dist/hooks/useConfig";
 
 const PostRate = () => {
   const setting = {
@@ -22,7 +23,7 @@ const PostRate = () => {
 
   return (
     <div>
-      <Row className="mt-3">
+      <Row className="mt-3 ">
         <Col sm="12" className="me-5  d-flex">
           <div className="rate-name  d-inline ms-3 mt-1 ">علي محمد</div>
           <ReactStars {...setting} />
@@ -32,10 +33,13 @@ const PostRate = () => {
         <Col className="d-felx me-4 pb-2">
           <textarea
             className="input-form-area p-2 mt-3"
-            rows="٢"
-            cols="30"
-            placeholder="اكتب تعليقك واضغط انتر ...."
+            rows="2"
+            cols="20"
+            placeholder="اكتب تعليقك...."
           />
+          <div className=" d-flex justify-content-end al">
+            <div className="product-cart-add px-3  py-2 text-center d-inline">اضف تعليق</div>
+          </div>
         </Col>
       </Row>
     </div>

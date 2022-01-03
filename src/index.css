@@ -41,25 +41,21 @@ body {
   background: linear-gradient(173.68deg, #ffedf5 0%, #ffd5e7 100%);
   height: "296px";
   width: 294.26px;
-
 }
 .slider-background2 {
   background: linear-gradient(174.76deg, #d3deff 0%, #a8baff 100%);
   height: "296px";
   width: 294.26px;
-
 }
 .slider-background3 {
   background: linear-gradient(176.69deg, #f8f0d5 0%, #efdcab 100%);
   height: "296px";
   width: 294.26px;
-
 }
 .slider-background4 {
-  background: linear-gradient(175.24deg, #B2E8F0 0%, #7BCCDC 100%);
+  background: linear-gradient(175.24deg, #b2e8f0 0%, #7bccdc 100%);
   height: "296px";
   width: 294.26px;
-
 }
 .slider-title {
   color: #915970;
@@ -256,9 +252,8 @@ body {
 .cat-title {
   color: #555550;
   font-family: Almarai;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 24px;
+  font-size: 14px;
+  font-weight: normal;
   text-align: right;
 }
 
@@ -305,7 +300,7 @@ body {
   border-radius: 9px;
   color: #555550;
   font-family: "Almarai";
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   background-color: #ffffff;
 }
@@ -424,6 +419,9 @@ body {
   height: 46px;
   width: 90%;
   border: 1px solid #979797;
+  font-family: "Almarai";
+  font-size: 12px;
+  font-weight: normal;
 }
 .copon-btn {
   cursor: pointer;
@@ -432,14 +430,21 @@ body {
   padding-top: 5px;
   border-radius: 5px !important;
   padding-bottom: 5px;
-  padding-right: 20px;
-  padding-left: 20px !important;
+  padding-right: 10px;
+  padding-left: 10px !important;
   border-radius: 0 !important;
   background-color: #272727;
   color: #ffff !important;
   font-family: "Almarai";
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.cart-checkout {
+  height: 200px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #ffffff;
 }
 
 /* cart end */
@@ -529,7 +534,16 @@ body {
 .btn-save:hover {
   color: rgb(164, 164, 164);
 }
-
+.btn-a {
+  border: none;
+  color: white;
+  height: 45px;
+  border-radius: 9px;
+  background-color: #272727;
+}
+.btn-a:hover {
+  color: rgb(164, 164, 164);
+}
 /* end admin  */
 
 /* rates  */

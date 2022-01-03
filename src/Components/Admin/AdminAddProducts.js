@@ -24,6 +24,11 @@ const AdminAddProducts = () => {
           <input
             type="number"
             className="input-form d-block mt-3 px-3"
+            placeholder="السعر قبل الخصم"
+          />
+          <input
+            type="number"
+            className="input-form d-block mt-3 px-3"
             placeholder="سعر المنتج"
           />
           <select

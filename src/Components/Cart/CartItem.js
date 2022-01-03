@@ -5,7 +5,7 @@ import mobile from "../../images/mobile.png";
 import deleteicon from "../../images/delete.png";
 const CartItem = () => {
   return (
-    <Col sm="12" className="cart-item-body my-2 d-flex px-2">
+    <Col xs="12" className="cart-item-body my-2 d-flex px-2">
       <img width="160px" height="197px" src={mobile} alt="" />
       <div className="w-100">
         <Row className="justify-content-between">
@@ -21,7 +21,7 @@ const CartItem = () => {
           <Col sm="12" className=" d-flex flex-row justify-content-start">
             <div className="d-inline pt-2 cat-title">
               آيفون XR بذاكرة سعة 128 جيجابايت ويدعم تقنية 4G LTE مع تطبيق فيس
-              تايم (برودكت) أحمر
+            
             </div>
             <div className="d-inline pt-2 cat-rate me-2">4.5</div>
           </Col>
