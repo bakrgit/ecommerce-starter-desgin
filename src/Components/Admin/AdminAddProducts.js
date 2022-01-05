@@ -2,7 +2,16 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import avatar from "../../images/avatar.png";
 import add from "../../images/add.png";
+import Multiselect from "multiselect-react-dropdown";
+
 const AdminAddProducts = () => {
+  const options = [
+    { name: "التصنيف الاول", id: 1 },
+    { name: "التصنيف الثاني", id: 2 },
+  ];
+  const onSelect = (selectedList, selectedItem) => {};
+
+  const onRemove = (selectedList, removedItem) => {};
   return (
     <div>
       <Row className="justify-content-start ">
@@ -35,11 +44,22 @@ const AdminAddProducts = () => {
             name="languages"
             id="lang"
             className="select input-form-area mt-3 px-2 ">
+            <option value="val">التصنيف الرئيسي</option>
             <option value="val">التصنيف الاول</option>
             <option value="val2">التصنيف الثاني</option>
             <option value="val2">التصنيف الثالث</option>
             <option value="val2">التصنيف الرابع</option>
           </select>
+
+          <Multiselect
+            className="mt-2 text-end"
+            placeholder="التصنيف الفرعي"
+            options={options}
+            onSelect={onSelect}
+            onRemove={onRemove}
+            displayValue="name"
+            style={{ color: "red" }}
+          />
           <select
             name="brand"
             id="brand"
